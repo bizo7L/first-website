@@ -1,31 +1,44 @@
 body, h1 {
     margin: 0;
-  }
-  * {
+}
+* {
     color: rgb(208, 208, 208);
     font-weight: normal;
-  }
-  body {
+}
+
+body {
     background: rgb(40, 41, 46);
-  }
-  .container {
+}
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
     margin-bottom: 5rem;
-  }
-  .title {
+}
+.title {
     font-weight: 800;
     color: rgb(244, 244, 244);
     font-size: 8rem;
-  }
-  .subtitle {
+}
+.subtitle {
     font-size: 2.5rem;
     color: rgb(208, 208, 208);
     font-weight: 300;
-  }
-  a {
+}
+a {
     color: dodgerblue;
-  }
+}
+
+.navbar {
+    padding: 1.5rem;
+    background-color: rgb(35, 35, 40);
+    display: flex;
+    gap: 2rem;
+}
+
+.theme-btn {
+    all: unset;
+    cursor: pointer;
+}
