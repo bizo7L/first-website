@@ -6,6 +6,11 @@ body, h1 {
     font-weight: normal;
 }
 
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
 body {
     background: rgb(40, 41, 46);
 }
@@ -36,6 +41,16 @@ a {
     background-color: rgb(35, 35, 40);
     display: flex;
     gap: 2rem;
+}
+
+.footer {
+    padding: 1.5rem;
+    background-color: rgb(35, 35, 40);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
 }
 
 .theme-btn {
